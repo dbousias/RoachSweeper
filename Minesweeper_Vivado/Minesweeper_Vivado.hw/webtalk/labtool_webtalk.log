@@ -1,0 +1,15 @@
+
+****** Webtalk v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2014.4/scripts/init.tcl'
+source -notrace "C:/Xilinx/Vivado/2014.4/scripts/init.tcl"
+source C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 128.523 ; gain = 0.008
+
+    while executing
+"webtalk_transmit -clientid 2466070814 -regid "205585449_0_0_860" -xml C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.hw/webtalk/..."
+    (file "C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Sat Jun 20 00:10:49 2015...

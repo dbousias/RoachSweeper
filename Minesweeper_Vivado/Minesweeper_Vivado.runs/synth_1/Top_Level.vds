@@ -1,0 +1,1162 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jul 01 01:08:44 2015
+# Process ID: 2700
+# Log file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/Top_Level.vds
+# Journal file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2014.4/scripts/init.tcl'
+source -notrace "C:/Xilinx/Vivado/2014.4/scripts/init.tcl"
+source Top_Level.tcl
+# set_param general.maxBackupLogs 0
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-3
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.cache/wt [current_project]
+# set_property parent.project_path C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language VHDL [current_project]
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/score.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/MemTextures.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/winner.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/grid.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/About.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/Instructions.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/PSelect.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/Initial.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/Pointer.coe
+# add_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/coes/all.coe
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemScore_synth_1/MemScore.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemScore_synth_1/MemScore.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemTextures_synth_1/MemTextures.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemTextures_synth_1/MemTextures.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemWinner_synth_1/MemWinner.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemWinner_synth_1/MemWinner.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemFaces_synth_1/MemFaces.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/MemFaces_synth_1/MemFaces.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Clock8346_synth_1/Clock8346.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Clock8346_synth_1/Clock8346.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Mem_synth_1/Mem.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Mem_synth_1/Mem.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/About_synth_1/About.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/About_synth_1/About.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Instructions_synth_1/Instructions.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Instructions_synth_1/Instructions.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/PSelect_synth_1/PSelect.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/PSelect_synth_1/PSelect.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Initial_synth_1/Initial.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Initial_synth_1/Initial.dcp]
+# add_files -quiet C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Pointer_synth_1/Pointer.dcp
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/Pointer_synth_1/Pointer.dcp]
+# read_vhdl -library xil_defaultlib {
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/lfsr_random.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelWinner.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelScore.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelFaces.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixel.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/TextAndRowToAddr.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/RowToAddr.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg7.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg10.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/FaceAndRowToAddr.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Stack.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register7.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register5.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/random.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PSelectControl.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PointerControl.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InstructionsControl.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InitialControl.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamFaces.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/AboutControl.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/test_button.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SelectFSM.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/OpenRest_module.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Initialize.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/DigitFSM.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/debounce.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/CoordToAddr.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/BCD2SSD.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/Menu_Control.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Imgur.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Normalizer.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Cursor.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd
+#   C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamIniScreen.vhd
+# }
+# read_xdc C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc
+# set_property used_in_implementation false [get_files C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+# catch { write_hwdef -file Top_Level.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Top_Level -part xc7a100tcsg324-3
+Command: synth_design -top Top_Level -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-86] Your Synthesis license expires in 7 day(s)
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 250.371 ; gain = 24.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_Level' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'Normalizer' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Normalizer.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'debounce' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/debounce.vhd:17]
+	Parameter non_sampling_clk_cycles_num bound to: 15000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debounce' (1#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/debounce.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'test_button' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/test_button.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'test_button' (2#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/test_button.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Normalizer' (3#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Normalizer.vhd:15]
+INFO: [Synth 8-3491] module 'BlockRamGrid' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:4' bound to instance 'BlockRam_Grid_p' of component 'BlockRamGrid' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'BlockRamGrid' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:18]
+INFO: [Synth 8-3491] module 'CoordToAddr' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/CoordToAddr.vhd:7' bound to instance 'CoordToAddr_Control' of component 'CoordToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'CoordToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/CoordToAddr.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'CoordToAddr' (4#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/CoordToAddr.vhd:15]
+INFO: [Synth 8-3491] module 'CoordToAddr' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/CoordToAddr.vhd:7' bound to instance 'CoordToAddr_Graphics' of component 'CoordToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:52]
+INFO: [Synth 8-3491] module 'Mem' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Mem_stub.vhdl:5' bound to instance 'CORE' of component 'Mem' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'Mem' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Mem_stub.vhdl:18]
+INFO: [Synth 8-256] done synthesizing module 'BlockRamGrid' (5#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamGrid.vhd:18]
+INFO: [Synth 8-3491] module 'Cursor' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Cursor.vhd:5' bound to instance 'Cursor_p' of component 'Cursor' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'Cursor' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Cursor.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Cursor' (6#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Cursor.vhd:22]
+INFO: [Synth 8-3491] module 'Control' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:5' bound to instance 'Control_p' of component 'Control' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:200]
+INFO: [Synth 8-638] synthesizing module 'Control' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:30]
+INFO: [Synth 8-3491] module 'Randomize' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:5' bound to instance 'Random_mode' of component 'Randomize' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:196]
+INFO: [Synth 8-638] synthesizing module 'Randomize' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:18]
+INFO: [Synth 8-3491] module 'Random' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/random.vhd:5' bound to instance 't_Random' of component 'Random' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'Random' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/random.vhd:13]
+INFO: [Synth 8-3491] module 'lsfr_random' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/lfsr_random.vhd:4' bound to instance 'LSFR' of component 'lsfr_random' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/random.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'lsfr_random' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/lfsr_random.vhd:13]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'lsfr_random' (7#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/lfsr_random.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Random' (8#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/random.vhd:13]
+INFO: [Synth 8-3491] module 'Register7' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register7.vhd:4' bound to instance 'num_of_bombs_reg' of component 'Register7' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'Register7' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register7.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Register7' (9#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register7.vhd:14]
+INFO: [Synth 8-3491] module 'Register5' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register5.vhd:6' bound to instance 'X_reg' of component 'Register5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'Register5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register5.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Register5' (10#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register5.vhd:16]
+INFO: [Synth 8-3491] module 'Register5' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Register5.vhd:6' bound to instance 'Y_reg' of component 'Register5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'Randomize' (11#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:18]
+INFO: [Synth 8-3491] module 'Initialize' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Initialize.vhd:6' bound to instance 'Initialize_mode' of component 'Initialize' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'Initialize' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Initialize.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Initialize' (12#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Initialize.vhd:19]
+INFO: [Synth 8-3491] module 'Play_module' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:7' bound to instance 'Play_mode' of component 'Play_module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'Play_module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:33]
+INFO: [Synth 8-3491] module 'Stack' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Stack.vhd:7' bound to instance 'Stack_p' of component 'Stack' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:979]
+INFO: [Synth 8-638] synthesizing module 'Stack' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Stack.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Stack' (13#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Stack.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Play_module' (14#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:33]
+INFO: [Synth 8-3491] module 'Reset_Module' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd:5' bound to instance 'Reset_mode' of component 'Reset_Module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'Reset_Module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd:15]
+INFO: [Synth 8-226] default block is never used [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd:39]
+INFO: [Synth 8-4471] merging register 'state_reg' into 'set_temp_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'Reset_Module' (15#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reset_Mode.vhd:15]
+INFO: [Synth 8-3491] module 'OpenRest_module' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/OpenRest_module.vhd:5' bound to instance 'OpenRest_mode' of component 'OpenRest_module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'OpenRest_module' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/OpenRest_module.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'OpenRest_module' (16#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/OpenRest_module.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Control' (17#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Control.vhd:30]
+INFO: [Synth 8-3491] module 'DigitsForScore' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:4' bound to instance 'ScoreP1' of component 'DigitsForScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'DigitsForScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'DigitsForScore' (18#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:11]
+INFO: [Synth 8-3491] module 'DigitsForScore' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:4' bound to instance 'ScoreP2' of component 'DigitsForScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'Imgur' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Imgur.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'InitialControl' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InitialControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Initial' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Initial_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'InitialControl' (19#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InitialControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'AboutControl' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/AboutControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'About' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/About_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'AboutControl' (20#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/AboutControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'InstructionsControl' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InstructionsControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Instructions' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Instructions_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'InstructionsControl' (21#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/InstructionsControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'PSelectControl' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PSelectControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'PSelect' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/PSelect_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'PSelectControl' (22#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PSelectControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'PointerControl' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PointerControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'Pointer' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Pointer_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'PointerControl' (23#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/PointerControl.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'BlockRamTextures' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:15]
+INFO: [Synth 8-3491] module 'TextAndRowToAddr' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/TextAndRowToAddr.vhd:7' bound to instance 'TextAndRow' of component 'TextAndRowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'TextAndRowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/TextAndRowToAddr.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'TextAndRowToAddr' (24#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/TextAndRowToAddr.vhd:15]
+INFO: [Synth 8-3491] module 'MemTextures' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemTextures_stub.vhdl:5' bound to instance 'CoreTextures' of component 'MemTextures' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'MemTextures' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemTextures_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Reg5' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg.vhd:4' bound to instance 'Register5' of component 'Reg5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'Reg5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Reg5' (25#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg.vhd:10]
+INFO: [Synth 8-3491] module 'ToPixel' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixel.vhd:7' bound to instance 'Pixel' of component 'ToPixel' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'ToPixel' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixel.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ToPixel' (26#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixel.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'BlockRamTextures' (27#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamTextures.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'BlockRamScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:16]
+INFO: [Synth 8-3491] module 'ScoreAndRowToAddr' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd:7' bound to instance 'ScoreToAddr' of component 'ScoreAndRowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'ScoreAndRowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ScoreAndRowToAddr' (28#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd:15]
+INFO: [Synth 8-3491] module 'MemScore' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemScore_stub.vhdl:5' bound to instance 'CoreScore' of component 'MemScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'MemScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemScore_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Reg5' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg.vhd:4' bound to instance 'Register5' of component 'Reg5' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:66]
+INFO: [Synth 8-3491] module 'ToPixelScore' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelScore.vhd:5' bound to instance 'ToPixel' of component 'ToPixelScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'ToPixelScore' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelScore.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ToPixelScore' (29#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelScore.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'BlockRamScore' (30#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamScore.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'BlockRamWinner' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:15]
+INFO: [Synth 8-3491] module 'RowToAddr' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/RowToAddr.vhd:7' bound to instance 'RowToAddres' of component 'RowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'RowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/RowToAddr.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'RowToAddr' (31#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/RowToAddr.vhd:13]
+INFO: [Synth 8-3491] module 'MemWinner' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemWinner_stub.vhdl:5' bound to instance 'CoreWinner' of component 'MemWinner' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'MemWinner' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemWinner_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Reg7' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg7.vhd:5' bound to instance 'Register7' of component 'Reg7' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'Reg7' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg7.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Reg7' (32#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg7.vhd:12]
+INFO: [Synth 8-3491] module 'ToPixelWinner' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelWinner.vhd:5' bound to instance 'ToPixel' of component 'ToPixelWinner' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'ToPixelWinner' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelWinner.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ToPixelWinner' (33#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelWinner.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'BlockRamWinner' (34#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamWinner.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'BlockRamFaces' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamFaces.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'FaceAndRowToAddr' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/FaceAndRowToAddr.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'FaceAndRowToAddr' (35#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/FaceAndRowToAddr.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'MemFaces' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/MemFaces_stub.vhdl:14]
+INFO: [Synth 8-638] synthesizing module 'Reg6' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg10.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Reg6' (36#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Reg10.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'ToPixelFaces' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelFaces.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ToPixelFaces' (37#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelFaces.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'BlockRamFaces' (38#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/BlockRamFaces.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'Clock8346' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/realtime/Clock8346_stub.vhdl:14]
+WARNING: [Synth 8-614] signal 'F_PixelR' is read in the process but is not in the sensitivity list [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Imgur.vhd:489]
+INFO: [Synth 8-256] done synthesizing module 'Imgur' (39#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Imgur.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Menu_Control' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/Menu_Control.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'Menu_Control' (40#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/new/Menu_Control.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'SevSeg_top' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:22]
+INFO: [Synth 8-3491] module 'BCD2SSD' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/BCD2SSD.vhd:4' bound to instance 'BCD2SSD_Port1' of component 'BCD2SSD' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'BCD2SSD' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/BCD2SSD.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'BCD2SSD' (41#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/BCD2SSD.vhd:12]
+INFO: [Synth 8-3491] module 'SelectFSM' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SelectFSM.vhd:4' bound to instance 'SelectFSM_Port1' of component 'SelectFSM' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'SelectFSM' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SelectFSM.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'SelectFSM' (42#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SelectFSM.vhd:15]
+INFO: [Synth 8-3491] module 'BCD2SSD' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/BCD2SSD.vhd:4' bound to instance 'BCD2SSD_Port2' of component 'BCD2SSD' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:151]
+INFO: [Synth 8-3491] module 'SelectFSM' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SelectFSM.vhd:4' bound to instance 'SelectFSM_Port2' of component 'SelectFSM' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:158]
+INFO: [Synth 8-3491] module 'DigitFSM' declared at 'C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/DigitFSM.vhd:7' bound to instance 'DigitFSM_Port' of component 'DigitFSM' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'DigitFSM' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/DigitFSM.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'DigitFSM' (43#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/DigitFSM.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SevSeg_top' (44#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Top_Level' (45#1) [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/top_level.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 305.367 ; gain = 79.688
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 305.367 ; gain = 79.688
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/dcp_5/Clock8346_in_context.xdc] for cell 'Picture/clocking_8346'
+Finished Parsing XDC File [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/dcp_5/Clock8346_in_context.xdc] for cell 'Picture/clocking_8346'
+Parsing XDC File [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 651.375 ; gain = 0.156
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_I. (constraint file  C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/synth_1/.Xil/Vivado-2700-Vangelis-PC/dcp_5/Clock8346_in_context.xdc, line 3).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'bombs_en_reg' into 'rqset_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:88]
+INFO: [Synth 8-4471] merging register 'y_reg_en_reg' into 'x_reg_en_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Randomize.vhd:90]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Randomize'
+ROM "num_of_bombs" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Initialize.vhd:67]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Initialize'
+ROM "done_sig" won't be mapped to RAM because it is too sparse.
+ROM "sum_temp" won't be mapped to RAM because it is too sparse.
+ROM "x_temp" won't be mapped to RAM because it is too sparse.
+ROM "set_temp" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to RAM because it is too sparse.
+ROM "full_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "empty_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "empty_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "stack_ptr" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:124]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/Play_mode.vhd:124]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Play_module'
+ROM "Winner" won't be mapped to RAM because it is too sparse.
+ROM "Winner" won't be mapped to RAM because it is too sparse.
+ROM "Score_temp1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "Enable" won't be mapped to RAM because it is too sparse.
+ROM "Who_sig" won't be mapped to RAM because it is too sparse.
+ROM "Done" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5) 
+ROM "x_temp" won't be mapped to RAM because it is too sparse.
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'OpenRest_module'
+ROM "x_temp" won't be mapped to RAM because it is too sparse.
+ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "done_sig" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to RAM because it is too sparse.
+ROM "row" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+ROM size is below threshold of ROM address width. It will be mapped to LUTs
+ROM "pix_X" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+ROM "score_X" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Menu_Control'
+ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "P1_sel_sig" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "P2_sel_sig" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "Enable_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DigitFSM'
+ROM "Data_En" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Randomize'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Initialize'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Play_module'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'OpenRest_module'
+WARNING: [Synth 8-327] inferring latch for variable 'Digit1_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:20]
+WARNING: [Synth 8-327] inferring latch for variable 'Digit2_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/DigitsForScore.vhd:21]
+WARNING: [Synth 8-327] inferring latch for variable 'PixelOut_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixel.vhd:23]
+WARNING: [Synth 8-327] inferring latch for variable 'PixelOut_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelScore.vhd:20]
+WARNING: [Synth 8-327] inferring latch for variable 'PixelOutR_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/VHDL/ToPixelFaces.vhd:24]
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Menu_Control'
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'DigitFSM'
+WARNING: [Synth 8-327] inferring latch for variable 'DataOut_reg' [C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/imports/new/SevSeg_top.vhd:72]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 7     
+	   2 Input     31 Bit       Adders := 10    
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 6     
+	   2 Input      5 Bit       Adders := 15    
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 9     
+	               31 Bit    Registers := 5     
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 23    
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 12    
+	                1 Bit    Registers := 35    
++---RAMs : 
+	              640 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 14    
+	   4 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 19    
+	   4 Input     31 Bit        Muxes := 2     
+	   5 Input     31 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 35    
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 11    
+	  62 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 4     
+	   8 Input      8 Bit        Muxes := 1     
+	  82 Input      7 Bit        Muxes := 1     
+	  75 Input      7 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  62 Input      6 Bit        Muxes := 2     
+	   3 Input      5 Bit        Muxes := 6     
+	   2 Input      5 Bit        Muxes := 46    
+	  68 Input      5 Bit        Muxes := 2     
+	  62 Input      5 Bit        Muxes := 2     
+	   7 Input      5 Bit        Muxes := 2     
+	  68 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 26    
+	  62 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 18    
+	   8 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 27    
+	  68 Input      2 Bit        Muxes := 1     
+	  62 Input      2 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 93    
+	   5 Input      1 Bit        Muxes := 15    
+	  68 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+	  62 Input      1 Bit        Muxes := 21    
+	   7 Input      1 Bit        Muxes := 7     
+	  43 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 3     
+	  23 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  51 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top_Level 
+Detailed RTL Component Info : 
+Module debounce 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module test_button 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module Normalizer 
+Detailed RTL Component Info : 
+Module CoordToAddr 
+Detailed RTL Component Info : 
+Module BlockRamGrid 
+Detailed RTL Component Info : 
+Module Cursor 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 6     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 2     
++---Muxes : 
+	   3 Input      5 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+Module lsfr_random 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     10 Bit         XORs := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+Module Random 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+Module Register7 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module Register5 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module Randomize 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+Module Initialize 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  82 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  68 Input      5 Bit        Muxes := 2     
+	  68 Input      4 Bit        Muxes := 1     
+	  68 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	  68 Input      1 Bit        Muxes := 7     
+Module Stack 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              640 Bit         RAMs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+Module Play_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  62 Input     10 Bit        Muxes := 2     
+	  75 Input      7 Bit        Muxes := 1     
+	  62 Input      6 Bit        Muxes := 2     
+	  62 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	  62 Input      4 Bit        Muxes := 1     
+	  62 Input      2 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  62 Input      1 Bit        Muxes := 21    
+Module Reset_Module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 6     
+	   3 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module OpenRest_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 7     
+Module Control 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 4     
+Module DigitsForScore 
+Detailed RTL Component Info : 
++---Muxes : 
+	  43 Input      1 Bit        Muxes := 1     
+Module InitialControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
+Module AboutControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module InstructionsControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module PSelectControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module PointerControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+Module TextAndRowToAddr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+Module Reg5 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module ToPixel 
+Detailed RTL Component Info : 
++---Muxes : 
+	  23 Input      1 Bit        Muxes := 1     
+Module BlockRamTextures 
+Detailed RTL Component Info : 
+Module ScoreAndRowToAddr 
+Detailed RTL Component Info : 
+Module ToPixelScore 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 1     
+Module BlockRamScore 
+Detailed RTL Component Info : 
+Module RowToAddr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+Module Reg7 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module ToPixelWinner 
+Detailed RTL Component Info : 
+Module BlockRamWinner 
+Detailed RTL Component Info : 
+Module FaceAndRowToAddr 
+Detailed RTL Component Info : 
+Module Reg6 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+Module ToPixelFaces 
+Detailed RTL Component Info : 
++---Muxes : 
+	  51 Input      1 Bit        Muxes := 1     
+Module BlockRamFaces 
+Detailed RTL Component Info : 
+Module Imgur 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 6     
++---Registers : 
+	               31 Bit    Registers := 5     
+	               12 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 3     
+	   2 Input     12 Bit        Muxes := 35    
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 10    
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 22    
+	   2 Input      4 Bit        Muxes := 22    
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 18    
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 14    
+Module Menu_Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 16    
+	   4 Input     31 Bit        Muxes := 2     
+	   5 Input     31 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   5 Input      1 Bit        Muxes := 8     
+Module BCD2SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 2     
+Module SelectFSM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module DigitFSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module SevSeg_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "Play_mode/Stack_p/full_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "Play_mode/Stack_p/empty_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "Play_mode/Stack_p/empty_st" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "Play_mode/Stack_p/stack_ptr" won't be mapped to RAM because address size (32) is larger than maximum supported(18) 
+ROM "row" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+ROM "pix_X" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+ROM "score_X" won't be mapped to RAM because address size (31) is larger than maximum supported(18) 
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 651.375 ; gain = 425.695
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+-------------------------------------------+--------------------+----------------------+--------------+-------------------+
+|Module Name | RTL Object                                | Inference Criteria | Size (depth X width) | Primitives   | Hierarchical Name | 
++------------+-------------------------------------------+--------------------+----------------------+--------------+-------------------+
+|Top_Level   | Control_p/Play_mode/Stack_p/stack_mem_reg | Implied            | 64 X 10              | RAM64M x 4   | Top_Level/ram__1  | 
++------------+-------------------------------------------+--------------------+----------------------+--------------+-------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\right_norm/tester/state_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Control_p/Reset_mode/Data_out_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Seven_segment/Reset_display_sig1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ScoreP2/Digit1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ScoreP1/Digit1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Seven_segment/SelectFSM_Port1/Select_out_reg[8] )
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Random_mode/Data_out_temp_reg[2] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Random_mode/Data_out_temp_reg[1] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Random_mode/Data_out_temp_reg[0] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Reset_mode/Data_out_reg[3] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Reset_mode/Data_out_reg[2] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Reset_mode/Data_out_reg[1] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/Reset_mode/Data_out_reg[0] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\Control_p/OpenRest_mode/done_sig_reg ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\ScoreP1/Digit1_reg[3] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\ScoreP2/Digit1_reg[3] ) is unused and will be removed from module Top_Level.
+WARNING: [Synth 8-3332] Sequential element (\ColumnMux/PixelOutR_reg[11] ) is unused and will be removed from module BlockRamFaces.
+WARNING: [Synth 8-3332] Sequential element (\ColumnMux/PixelOutR_reg[6] ) is unused and will be removed from module BlockRamFaces.
+WARNING: [Synth 8-3332] Sequential element (\ColumnMux/PixelOutR_reg[5] ) is unused and will be removed from module BlockRamFaces.
+WARNING: [Synth 8-3332] Sequential element (\ColumnMux/PixelOutR_reg[0] ) is unused and will be removed from module BlockRamFaces.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[5] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[6] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[7] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[8] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[9] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[10] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[11] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[12] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[13] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[14] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[15] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[16] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[17] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[18] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[19] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[20] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[21] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[22] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[23] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[24] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[25] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[26] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[27] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[28] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[29] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\score_Y_reg[30] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[5] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[6] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[7] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[8] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[9] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[10] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[11] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[12] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[13] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[14] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[15] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[16] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[17] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[18] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[19] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[20] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[21] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[22] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[23] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[24] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[25] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[26] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[27] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[28] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[29] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_Y_reg[30] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[5] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[6] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[7] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[8] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[9] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[10] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[11] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[12] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[13] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[14] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[15] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[16] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[17] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[18] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[19] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[20] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[21] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[22] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[23] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[24] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[25] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[26] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[27] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[28] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[29] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\grid_X_reg[30] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[5] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[6] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[7] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[8] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[9] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[10] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[11] ) is unused and will be removed from module Imgur.
+WARNING: [Synth 8-3332] Sequential element (\pix_X_reg[12] ) is unused and will be removed from module Imgur.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 651.375 ; gain = 425.695
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 651.375 ; gain = 425.695
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 661.918 ; gain = 436.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 664.883 ; gain = 439.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:18 ; elapsed = 00:01:27 . Memory (MB): peak = 840.020 ; gain = 614.340
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:19 ; elapsed = 00:01:28 . Memory (MB): peak = 842.676 ; gain = 616.996
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:19 ; elapsed = 00:01:28 . Memory (MB): peak = 842.676 ; gain = 616.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:20 ; elapsed = 00:01:29 . Memory (MB): peak = 842.676 ; gain = 616.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |Mem           |         1|
+|2     |Clock8346     |         1|
+|3     |About         |         1|
+|4     |MemFaces      |         1|
+|5     |MemScore      |         1|
+|6     |MemTextures   |         1|
+|7     |MemWinner     |         1|
+|8     |Initial       |         1|
+|9     |Instructions  |         1|
+|10    |PSelect       |         1|
+|11    |Pointer       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |About            |     1|
+|2     |Clock8346        |     1|
+|3     |Initial          |     1|
+|4     |Instructions     |     1|
+|5     |MemFaces         |     1|
+|6     |MemScore_bbox    |     1|
+|7     |MemTextures_bbox |     1|
+|8     |MemWinner_bbox   |     1|
+|9     |Mem_bbox         |     1|
+|10    |PSelect          |     1|
+|11    |Pointer          |     1|
+|12    |BUFG             |     1|
+|13    |CARRY4           |   187|
+|14    |LUT1             |   605|
+|15    |LUT2             |   262|
+|16    |LUT3             |   318|
+|17    |LUT4             |   290|
+|18    |LUT5             |   430|
+|19    |LUT6             |  2241|
+|20    |MUXF7            |   745|
+|21    |MUXF8            |   303|
+|22    |RAM64M           |     4|
+|23    |FDCE             |   120|
+|24    |FDPE             |    55|
+|25    |FDRE             |   660|
+|26    |FDSE             |    38|
+|27    |LD               |    31|
+|28    |IBUF             |    10|
+|29    |OBUF             |    30|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+--------------------------+--------------------+------+
+|      |Instance                  |Module              |Cells |
++------+--------------------------+--------------------+------+
+|1     |top                       |                    | 11382|
+|2     |  BlockRam_Grid_p         |BlockRamGrid        |    78|
+|3     |    CoordToAddr_Control   |CoordToAddr         |    17|
+|4     |    CoordToAddr_Graphics  |CoordToAddr_16      |    17|
+|5     |  Control_p               |Control             |   876|
+|6     |    Initialize_mode       |Initialize          |   142|
+|7     |    OpenRest_mode         |OpenRest_module     |    40|
+|8     |    Play_mode             |Play_module         |   477|
+|9     |      Stack_p             |Stack               |   259|
+|10    |    Random_mode           |Randomize           |   168|
+|11    |      X_reg               |Register5           |    10|
+|12    |      Y_reg               |Register5_15        |    10|
+|13    |      t_Random            |Random              |    39|
+|14    |        LSFR              |lsfr_random         |    23|
+|15    |    Reset_mode            |Reset_Module        |    27|
+|16    |  Cursor_p                |Cursor              |    73|
+|17    |  Menus                   |Menu_Control        |   428|
+|18    |  Picture                 |Imgur               |  8868|
+|19    |    Inst_About            |AboutControl        |  1173|
+|20    |    Inst_BlockRamFaces    |BlockRamFaces       |  1419|
+|21    |      ColumnMux           |ToPixelFaces        |    28|
+|22    |      Regist6             |Reg6                |   572|
+|23    |    Inst_BlockRamScore    |BlockRamScore       |    46|
+|24    |      Register5           |Reg5_14             |    11|
+|25    |      ToPixel             |ToPixelScore        |     7|
+|26    |    Inst_BlockRamTextures |BlockRamTextures    |   195|
+|27    |      Pixel               |ToPixel             |    39|
+|28    |      Register5           |Reg5                |    46|
+|29    |    Inst_BlockRamWinner   |BlockRamWinner      |   170|
+|30    |      Register7           |Reg7                |    57|
+|31    |    Inst_Initial          |InitialControl      |  2353|
+|32    |    Inst_Instructions     |InstructionsControl |  1174|
+|33    |    Inst_PSelect          |PSelectControl      |  1191|
+|34    |    Inst_Pointer          |PointerControl      |    40|
+|35    |  ScoreP1                 |DigitsForScore      |    23|
+|36    |  ScoreP2                 |DigitsForScore_0    |    22|
+|37    |  Seven_segment           |SevSeg_top          |   367|
+|38    |    DigitFSM_Port         |DigitFSM            |   100|
+|39    |    SelectFSM_Port1       |SelectFSM           |    38|
+|40    |    SelectFSM_Port2       |SelectFSM_13        |    39|
+|41    |  confirm_norm            |Normalizer          |   122|
+|42    |    debouncer             |debounce_11         |   117|
+|43    |    tester                |test_button_12      |     5|
+|44    |  down_norm               |Normalizer_1        |   124|
+|45    |    debouncer             |debounce_9          |   117|
+|46    |    tester                |test_button_10      |     7|
+|47    |  left_norm               |Normalizer_2        |   120|
+|48    |    debouncer             |debounce_7          |   117|
+|49    |    tester                |test_button_8       |     3|
+|50    |  right_norm              |Normalizer_3        |   120|
+|51    |    debouncer             |debounce_5          |   117|
+|52    |    tester                |test_button_6       |     3|
+|53    |  up_norm                 |Normalizer_4        |   119|
+|54    |    debouncer             |debounce            |   117|
+|55    |    tester                |test_button         |     2|
++------+--------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:20 ; elapsed = 00:01:29 . Memory (MB): peak = 842.676 ; gain = 616.996
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 377 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:01:19 . Memory (MB): peak = 842.676 ; gain = 270.988
+Synthesis Optimization Complete : Time (s): cpu = 00:01:20 ; elapsed = 00:01:29 . Memory (MB): peak = 842.676 ; gain = 616.996
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 232 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  LD => LDCE: 31 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+176 Infos, 107 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:22 ; elapsed = 00:01:30 . Memory (MB): peak = 842.676 ; gain = 616.996
+# write_checkpoint -noxdef Top_Level.dcp
+# catch { report_utilization -file Top_Level_utilization_synth.rpt -pb Top_Level_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 842.676 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 01 01:10:18 2015...

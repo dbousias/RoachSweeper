@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1435702121">
+  <File Type="RDS-DCP" Name="Top_Level.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="Top_Level_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="Top_Level_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Top_Level.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="Top_Level.vds"/>
+  <File Type="RDS-UTIL" Name="Top_Level_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Top_Level_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Top_Level_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="Top_Level.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/lfsr_random.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/lfsr_random.vhd"/>
+        <Attr Name="ImportTime" Val="1415974100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelWinner.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelWinner.vhd"/>
+        <Attr Name="ImportTime" Val="1421190998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelScore.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelScore.vhd"/>
+        <Attr Name="ImportTime" Val="1421190984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelFaces.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelFaces.vhd"/>
+        <Attr Name="ImportTime" Val="1420842161"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixel.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixel.vhd"/>
+        <Attr Name="ImportTime" Val="1421191017"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/TextAndRowToAddr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/TextAndRowToAddr.vhd"/>
+        <Attr Name="ImportTime" Val="1421190938"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ScoreAndRowToAddr.vhd"/>
+        <Attr Name="ImportTime" Val="1421190914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/RowToAddr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/RowToAddr.vhd"/>
+        <Attr Name="ImportTime" Val="1420049540"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg7.vhd"/>
+        <Attr Name="ImportTime" Val="1420046882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg10.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg10.vhd"/>
+        <Attr Name="ImportTime" Val="1420841093"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1420839822"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/FaceAndRowToAddr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/FaceAndRowToAddr.vhd"/>
+        <Attr Name="ImportTime" Val="1420844222"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Stack.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Stack.vhd"/>
+        <Attr Name="ImportTime" Val="1420413760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Register7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Register7.vhd"/>
+        <Attr Name="ImportTime" Val="1416655482"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Register5.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Register5.vhd"/>
+        <Attr Name="ImportTime" Val="1417518222"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/random.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/random.vhd"/>
+        <Attr Name="ImportTime" Val="1416653096"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PSelectControl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PointerControl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InstructionsControl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InitialControl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamWinner.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamWinner.vhd"/>
+        <Attr Name="ImportTime" Val="1420049562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamTextures.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamTextures.vhd"/>
+        <Attr Name="ImportTime" Val="1420046265"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamScore.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamScore.vhd"/>
+        <Attr Name="ImportTime" Val="1417818619"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamFaces.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamFaces.vhd"/>
+        <Attr Name="ImportTime" Val="1420850231"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AboutControl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/test_button.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/test_button.vhd"/>
+        <Attr Name="ImportTime" Val="1414063130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SelectFSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/SelectFSM.vhd"/>
+        <Attr Name="ImportTime" Val="1434821441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Reset_Mode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reset_Mode.vhd"/>
+        <Attr Name="ImportTime" Val="1419967568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Randomize.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Randomize.vhd"/>
+        <Attr Name="ImportTime" Val="1420642331"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Play_mode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Play_mode.vhd"/>
+        <Attr Name="ImportTime" Val="1420683477"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/OpenRest_module.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/OpenRest_module.vhd"/>
+        <Attr Name="ImportTime" Val="1420660205"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Initialize.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Initialize.vhd"/>
+        <Attr Name="ImportTime" Val="1420642511"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/DigitFSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/DigitFSM.vhd"/>
+        <Attr Name="ImportTime" Val="1434821441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1414063130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/CoordToAddr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/CoordToAddr.vhd"/>
+        <Attr Name="ImportTime" Val="1421190845"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/BCD2SSD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/BCD2SSD.vhd"/>
+        <Attr Name="ImportTime" Val="1434821441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Menu_Control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Imgur.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Imgur.vhd"/>
+        <Attr Name="ImportTime" Val="1434649701"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SevSeg_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/SevSeg_top.vhd"/>
+        <Attr Name="ImportTime" Val="1434821441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Normalizer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Normalizer.vhd"/>
+        <Attr Name="ImportTime" Val="1420654971"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/DigitsForScore.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/DigitsForScore.vhd"/>
+        <Attr Name="ImportTime" Val="1421191102"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Cursor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Cursor.vhd"/>
+        <Attr Name="ImportTime" Val="1420662583"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/Control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Control.vhd"/>
+        <Attr Name="ImportTime" Val="1420676325"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamGrid.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamGrid.vhd"/>
+        <Attr Name="ImportTime" Val="1418919462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/top_level.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/top_level.vhd"/>
+        <Attr Name="ImportTime" Val="1434643082"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamIniScreen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamIniScreen.vhd"/>
+        <Attr Name="ImportTime" Val="1420857485"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/score.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/MemTextures.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/winner.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/grid.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/About.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/Instructions.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/PSelect.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/Initial.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/Pointer.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coes/all.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_Level"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Instructions"/>
+  <BlockFileSet Type="BlockSrcs" Name="About"/>
+  <BlockFileSet Type="BlockSrcs" Name="Mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="MemTextures"/>
+  <BlockFileSet Type="BlockSrcs" Name="MemScore"/>
+  <BlockFileSet Type="BlockSrcs" Name="PSelect"/>
+  <BlockFileSet Type="BlockSrcs" Name="MemWinner"/>
+  <BlockFileSet Type="BlockSrcs" Name="MemFaces"/>
+  <BlockFileSet Type="BlockSrcs" Name="Clock8346"/>
+  <BlockFileSet Type="BlockSrcs" Name="Initial"/>
+  <BlockFileSet Type="BlockSrcs" Name="Pointer"/>
+</GenRun>

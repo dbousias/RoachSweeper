@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Jun 30 15:28:32 2015
+# Process ID: 7428
+# Log file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/PSelect_synth_1/PSelect.vds
+# Journal file: C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.runs/PSelect_synth_1\vivado.jou
+#-----------------------------------------------------------
+source -notrace "C:/Xilinx/Vivado/2014.4/scripts/init.tcl"
+source PSelect.tcl

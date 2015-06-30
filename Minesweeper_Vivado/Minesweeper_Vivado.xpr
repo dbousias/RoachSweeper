@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.4 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="2" Path="C:/Users/Vfor/Documents/GitHub/Minesweeper_Vivado/Minesweeper_Vivado.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="bafc7b919de54e84afbbc29eb615a3a6"/>
+    <Option Name="Part" Val="xc7a100tcsg324-3"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="SimulatorLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="SourceMgmtMode" Val="DisplayOnly"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/lfsr_random.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/lfsr_random.vhd"/>
+          <Attr Name="ImportTime" Val="1415974100"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelWinner.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelWinner.vhd"/>
+          <Attr Name="ImportTime" Val="1421190998"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelScore.vhd"/>
+          <Attr Name="ImportTime" Val="1421190984"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixelFaces.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixelFaces.vhd"/>
+          <Attr Name="ImportTime" Val="1420842161"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/ToPixel.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ToPixel.vhd"/>
+          <Attr Name="ImportTime" Val="1421191017"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/TextAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/TextAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190938"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/ScoreAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/ScoreAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190914"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/RowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/RowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1420049540"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg7.vhd"/>
+          <Attr Name="ImportTime" Val="1420046882"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg10.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg10.vhd"/>
+          <Attr Name="ImportTime" Val="1420841093"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Reg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reg.vhd"/>
+          <Attr Name="ImportTime" Val="1420839822"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/FaceAndRowToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/FaceAndRowToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1420844222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Stack.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Stack.vhd"/>
+          <Attr Name="ImportTime" Val="1420413760"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Register7.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Register7.vhd"/>
+          <Attr Name="ImportTime" Val="1416655482"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Register5.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Register5.vhd"/>
+          <Attr Name="ImportTime" Val="1417518222"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/random.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/random.vhd"/>
+          <Attr Name="ImportTime" Val="1416653096"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/PSelectControl.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/PointerControl.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/InstructionsControl.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/InitialControl.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamWinner.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamWinner.vhd"/>
+          <Attr Name="ImportTime" Val="1420049562"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamTextures.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamTextures.vhd"/>
+          <Attr Name="ImportTime" Val="1420046265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamScore.vhd"/>
+          <Attr Name="ImportTime" Val="1417818619"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamFaces.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamFaces.vhd"/>
+          <Attr Name="ImportTime" Val="1420850231"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/AboutControl.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/test_button.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/test_button.vhd"/>
+          <Attr Name="ImportTime" Val="1414063130"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/SelectFSM.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/SelectFSM.vhd"/>
+          <Attr Name="ImportTime" Val="1434821441"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Reset_Mode.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Reset_Mode.vhd"/>
+          <Attr Name="ImportTime" Val="1419967568"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Randomize.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Randomize.vhd"/>
+          <Attr Name="ImportTime" Val="1420642331"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Play_mode.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Play_mode.vhd"/>
+          <Attr Name="ImportTime" Val="1420683477"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/OpenRest_module.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/OpenRest_module.vhd"/>
+          <Attr Name="ImportTime" Val="1420660205"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Initialize.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Initialize.vhd"/>
+          <Attr Name="ImportTime" Val="1420642511"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/DigitFSM.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/DigitFSM.vhd"/>
+          <Attr Name="ImportTime" Val="1434821441"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/debounce.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/debounce.vhd"/>
+          <Attr Name="ImportTime" Val="1414063130"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/CoordToAddr.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/CoordToAddr.vhd"/>
+          <Attr Name="ImportTime" Val="1421190845"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/BCD2SSD.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/BCD2SSD.vhd"/>
+          <Attr Name="ImportTime" Val="1434821441"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Menu_Control.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Imgur.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Imgur.vhd"/>
+          <Attr Name="ImportTime" Val="1434649701"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/SevSeg_top.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/new/SevSeg_top.vhd"/>
+          <Attr Name="ImportTime" Val="1434821441"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Normalizer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Normalizer.vhd"/>
+          <Attr Name="ImportTime" Val="1420654971"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/DigitsForScore.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/DigitsForScore.vhd"/>
+          <Attr Name="ImportTime" Val="1421191102"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Cursor.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Cursor.vhd"/>
+          <Attr Name="ImportTime" Val="1420662583"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/Control.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/Control.vhd"/>
+          <Attr Name="ImportTime" Val="1420676325"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamGrid.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamGrid.vhd"/>
+          <Attr Name="ImportTime" Val="1418919462"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/top_level.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/top_level.vhd"/>
+          <Attr Name="ImportTime" Val="1434643082"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/VHDL/BlockRamIniScreen.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/VHDL/BlockRamIniScreen.vhd"/>
+          <Attr Name="ImportTime" Val="1420857485"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/score.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/MemTextures.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/winner.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/grid.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/About.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/Instructions.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/PSelect.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/Initial.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/Pointer.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/coes/all.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="Top_Level"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Constraints/Nexys4DDR_Master.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="test_top"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemScore" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemScore">
+      <File Path="$PSRCDIR/sources_1/ip/MemScore/MemScore.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/IP/MemScore/MemScore.xci"/>
+          <Attr Name="ImportTime" Val="1434653652"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemScore"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemTextures" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemTextures">
+      <File Path="$PSRCDIR/sources_1/ip/MemTextures/MemTextures.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/IP/MemTextures/MemTextures.xci"/>
+          <Attr Name="ImportTime" Val="1434653702"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemTextures"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemWinner" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemWinner">
+      <File Path="$PSRCDIR/sources_1/ip/MemWinner/MemWinner.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/IP/MemWinner/MemWinner.xci"/>
+          <Attr Name="ImportTime" Val="1434653751"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemWinner"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="MemFaces" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MemFaces">
+      <File Path="$PSRCDIR/sources_1/ip/MemFaces/MemFaces.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../Desktop/Minesweeper_Vivado/Minesweeper_Vivado.srcs/sources_1/ip/MemFaces/MemFaces.xci"/>
+          <Attr Name="ImportTime" Val="1433795580"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="MemFaces"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Clock8346" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Clock8346">
+      <File Path="$PSRCDIR/sources_1/ip/Clock8346/Clock8346.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Clock8346"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Mem" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Mem">
+      <File Path="$PSRCDIR/sources_1/ip/Mem/Mem.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Minesweeper/Sources/IP/Mem/Mem.xci"/>
+          <Attr Name="ImportTime" Val="1434653590"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Mem"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="About" Type="BlockSrcs" RelSrcDir="$PSRCDIR/About">
+      <File Path="$PSRCDIR/sources_1/ip/About/About.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="About"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Instructions" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Instructions">
+      <File Path="$PSRCDIR/sources_1/ip/Instructions/Instructions.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Instructions"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="PSelect" Type="BlockSrcs" RelSrcDir="$PSRCDIR/PSelect">
+      <File Path="$PSRCDIR/sources_1/ip/PSelect/PSelect.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="PSelect"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Initial" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Initial">
+      <File Path="$PSRCDIR/sources_1/ip/Initial/Initial.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Initial"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="Pointer" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Pointer">
+      <File Path="$PSRCDIR/sources_1/ip/Pointer/Pointer.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="Pointer"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="QuestaSim/ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tcsg324-3" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemScore_synth_1" Type="Ft3:Synth" SrcSet="MemScore" Part="xc7a100tcsg324-3" ConstrsSet="MemScore" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemScore_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemTextures_synth_1" Type="Ft3:Synth" SrcSet="MemTextures" Part="xc7a100tcsg324-3" ConstrsSet="MemTextures" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemTextures_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemWinner_synth_1" Type="Ft3:Synth" SrcSet="MemWinner" Part="xc7a100tcsg324-3" ConstrsSet="MemWinner" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemWinner_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemFaces_synth_1" Type="Ft3:Synth" SrcSet="MemFaces" Part="xc7a100tcsg324-3" ConstrsSet="MemFaces" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/MemFaces_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Clock8346_synth_1" Type="Ft3:Synth" SrcSet="Clock8346" Part="xc7a100tcsg324-3" ConstrsSet="Clock8346" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Clock8346_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Mem_synth_1" Type="Ft3:Synth" SrcSet="Mem" Part="xc7a100tcsg324-3" ConstrsSet="Mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="About_synth_1" Type="Ft3:Synth" SrcSet="About" Part="xc7a100tcsg324-3" ConstrsSet="About" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/About_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Instructions_synth_1" Type="Ft3:Synth" SrcSet="Instructions" Part="xc7a100tcsg324-3" ConstrsSet="Instructions" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Instructions_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="PSelect_synth_1" Type="Ft3:Synth" SrcSet="PSelect" Part="xc7a100tcsg324-3" ConstrsSet="PSelect" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/PSelect_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Initial_synth_1" Type="Ft3:Synth" SrcSet="Initial" Part="xc7a100tcsg324-3" ConstrsSet="Initial" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Initial_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="Pointer_synth_1" Type="Ft3:Synth" SrcSet="Pointer" Part="xc7a100tcsg324-3" ConstrsSet="Pointer" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/Pointer_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="MemScore_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemScore" Description="Vivado Implementation Defaults" SynthRun="MemScore_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemTextures_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemTextures" Description="Vivado Implementation Defaults" SynthRun="MemTextures_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemWinner_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemWinner" Description="Vivado Implementation Defaults" SynthRun="MemWinner_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="MemFaces_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="MemFaces" Description="Vivado Implementation Defaults" SynthRun="MemFaces_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Clock8346_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Clock8346" Description="Vivado Implementation Defaults" SynthRun="Clock8346_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Mem_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Mem" Description="Vivado Implementation Defaults" SynthRun="Mem_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="About_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="About" Description="Vivado Implementation Defaults" SynthRun="About_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Instructions_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Instructions" Description="Vivado Implementation Defaults" SynthRun="Instructions_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="PSelect_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="PSelect" Description="Vivado Implementation Defaults" SynthRun="PSelect_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Initial_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Initial" Description="Vivado Implementation Defaults" SynthRun="Initial_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="Pointer_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tcsg324-3" ConstrsSet="Pointer" Description="Vivado Implementation Defaults" SynthRun="Pointer_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
+</Project>
